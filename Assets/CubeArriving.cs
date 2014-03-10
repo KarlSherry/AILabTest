@@ -5,7 +5,7 @@ public class CubeArriving : MonoBehaviour {
 
 	Vector3 force = Vector3.zero;
 	Vector3 velocity = Vector3.zero;
-	Vector3 target = Random.insideUnitSphere;
+	Vector3 target = Vector3.zero;
 
 	public float maxSpeed = 5.0f;
 	public float mass = 1.0f;
